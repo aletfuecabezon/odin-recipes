@@ -1,7 +1,8 @@
 * {
     background-color: #eedfc2;
-    font-family: 'Helvetica';
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #150c66;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -11,9 +12,31 @@ h1 {
 
 .hometext {
     text-align: center;
+    font-size: 20px;
 }
 
-button, a {
+.homebuttons {
+  text-align: center;
+}
+
+.homebuttons a {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 75px;
     background-color: #150c66;
     color: #eedfc2;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: linear-gradient(270deg, #2a1bb3, #4a3cff);
+}
+
+.homebuttons a:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #150c66, #2a1bb3);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
 }
