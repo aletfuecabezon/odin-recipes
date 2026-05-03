@@ -1,5 +1,19 @@
 * {
-    background-color: #EFE3CA;
+    background-color: #eedfc2;
     font-family: 'Helvetica';
     color: #150c66;
+}
+
+h1 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.hometext {
+    text-align: center;
+}
+
+button, a {
+    background-color: #150c66;
+    color: #eedfc2;
 }
